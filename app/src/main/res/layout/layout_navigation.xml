@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pos"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#434242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AndroPOS"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"
+                android:textColor="#999696"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Point Of Sell"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/single_line"/>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/navStock"
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/stock"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navSells"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/sell"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sells"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="0.3dp"
+            android:background="@drawable/single_line"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navInvoice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/invoise"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img3"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invoice Wise List"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navDue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/due"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img4"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Due Receivable"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navReport"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/report"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img5"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Report"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

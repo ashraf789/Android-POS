@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P25 Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+    
+    <string name="text_connect">Connect</string>
+    <string name="text_disconnect">Diconnect</string>
+    
+    <string name="text_enable_bluetooth">Enable Bluetooth</string>
+    <string name="text_disable_bluetooth">Disable Bluetooth</string>
+    
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+    
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_list_devices">List of Devices</string>
+    
+    <string name="text_pair">Pair</string>
+    
+    
+    <string name="text_print_demo">Print Demo</string>
+    <string name="text_print_barcode">Print Barcode</string>
+    <string name="text_print_image">Print Image</string>
+    <string name="text_print_receipt">Print Receipt</string>
+    <string name="text_print_text">Print Text</string>
+</resources>

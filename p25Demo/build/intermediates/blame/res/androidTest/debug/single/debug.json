@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_main_printer.xml.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main_printer.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu_main.xml.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_simple_spinner_dropdown_item.xml.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\layout\\simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_simple_spinner_item.xml.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dialog_input.xml.flat",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_input.xml"
+    }
+]

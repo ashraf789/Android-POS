@@ -1,0 +1,36 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="net.a6te.lazycoder.andropos.fragments.InvoiceFragment">
+
+        <android.support.design.widget.TabLayout
+            app:tabBackground="@drawable/after_tab_select"
+            app:tabTextColor="#5e5c5c"
+            app:tabSelectedTextColor="#5e5c5c"
+            app:tabIndicatorColor="#f2f1f1"
+            android:id="@+id/invoice_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#efefef"/>
+
+        <android.support.v4.view.ViewPager
+            android:layout_weight="4"
+            android:id="@+id/invoice_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/invoice_tab_layout"/>
+    </LinearLayout>
+
+</layout>

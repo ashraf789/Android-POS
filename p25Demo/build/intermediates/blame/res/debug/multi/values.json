@@ -1,0 +1,581 @@
+[
+    {
+        "outputFile": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 45,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 46,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 50,
+                    "endOffset": 194
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 50,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 199,
+                    "endColumn": 57,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 257,
+                    "endColumn": 55,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 40,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "C:\\Users\\Programmer\\.android\\build-cache\\895219c3423ffce874842c23774c6cea378205c2\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 40,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 354,
+                    "endColumn": 56,
+                    "endOffset": 406
+                },
+                "from": {
+                    "file": "C:\\Users\\Programmer\\.android\\build-cache\\a375fe4805b35d3b8d250689d070bbb9bb39d998\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 56,
+                        "endOffset": 107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 411,
+                    "endColumn": 42,
+                    "endOffset": 449
+                },
+                "from": {
+                    "file": "C:\\Users\\Programmer\\.android\\build-cache\\a375fe4805b35d3b8d250689d070bbb9bb39d998\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 112,
+                        "endColumn": 42,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 454,
+                    "endColumn": 40,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "C:\\Users\\Programmer\\.android\\build-cache\\a375fe4805b35d3b8d250689d070bbb9bb39d998\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 40,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 52,
+                    "endOffset": 543
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 52,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 548,
+                    "endColumn": 45,
+                    "endOffset": 589
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 45,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 594,
+                    "endColumn": 52,
+                    "endOffset": 642
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 52,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 647,
+                    "endColumn": 63,
+                    "endOffset": 706
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 63,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 711,
+                    "endColumn": 61,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 61,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 48,
+                    "endOffset": 817
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 48,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 822,
+                    "endColumn": 68,
+                    "endOffset": 886
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 515,
+                        "endColumn": 68,
+                        "endOffset": 579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 891,
+                    "endColumn": 53,
+                    "endOffset": 940
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 389,
+                        "endColumn": 53,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 945,
+                    "endColumn": 66,
+                    "endOffset": 1007
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 448,
+                        "endColumn": 66,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 61,
+                    "endOffset": 1069
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 777,
+                        "endColumn": 61,
+                        "endOffset": 834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1074,
+                    "endColumn": 67,
+                    "endOffset": 1137
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 67,
+                        "endOffset": 772
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1142,
+                    "endColumn": 42,
+                    "endOffset": 1180
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 844,
+                        "endColumn": 42,
+                        "endOffset": 882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1185,
+                    "endColumn": 60,
+                    "endOffset": 1241
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endColumn": 60,
+                        "endOffset": 1008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1246,
+                    "endColumn": 54,
+                    "endOffset": 1296
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 897,
+                        "endColumn": 54,
+                        "endOffset": 947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1301,
+                    "endColumn": 56,
+                    "endOffset": 1353
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1013,
+                        "endColumn": 56,
+                        "endOffset": 1065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1358,
+                    "endColumn": 60,
+                    "endOffset": 1414
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1070,
+                        "endColumn": 60,
+                        "endOffset": 1126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1419,
+                    "endColumn": 54,
+                    "endOffset": 1469
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1131,
+                        "endColumn": 54,
+                        "endOffset": 1181
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1474,
+                    "endColumn": 58,
+                    "endOffset": 1528
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 589,
+                        "endColumn": 58,
+                        "endOffset": 643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1533,
+                    "endColumn": 55,
+                    "endOffset": 1584
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 648,
+                        "endColumn": 55,
+                        "endOffset": 699
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1589,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1875
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1880,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2035
+                },
+                "from": {
+                    "file": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/dueSerialTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01"/>
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/dueAmountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000tk"/>
+        <TextView
+            android:layout_below="@+id/dueSerialTv"
+            android:id="@+id/customerNameDue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asad"/>
+        <TextView
+            android:layout_below="@+id/dueAmountTv"
+            android:layout_alignParentRight="true"
+            android:id="@+id/customerNumberDueTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01772465164"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

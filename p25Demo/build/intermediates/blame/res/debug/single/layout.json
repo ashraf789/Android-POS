@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_dropdown_item.xml",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_printer.xml",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\activity_main_printer.xml"
+    },
+    {
+        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input.xml",
+        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\dialog_input.xml"
+    }
+]
