@@ -10,3 +10,5 @@ Feature </br>
 -> Bluetooth Printer (To print invoice) </br>
 -> Due List </br>
 -> Online Data Synchronise System </br></br>
+
+More details and screenshot about this project https://www.behance.net/gallery/54364123/AndroPos
