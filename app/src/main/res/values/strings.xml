@@ -12,4 +12,6 @@
     <string name="brand_style">Brand/Style</string>
     <string name="unit">unit*</string>
     <string name="price">price*</string>
+    <string name="app_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_add_id">ca-app-pub-2122789248840144/4292660234</string>
 </resources>

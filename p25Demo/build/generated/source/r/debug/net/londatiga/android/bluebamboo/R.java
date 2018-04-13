@@ -7,56 +7,140 @@
 package net.londatiga.android.bluebamboo;
 
 public final class R {
+    public static final class attr {
+        public static int font = 0x7f040001;
+        public static int fontProviderAuthority = 0x7f040002;
+        public static int fontProviderCerts = 0x7f040003;
+        public static int fontProviderFetchStrategy = 0x7f040004;
+        public static int fontProviderFetchTimeout = 0x7f040005;
+        public static int fontProviderPackage = 0x7f040006;
+        public static int fontProviderQuery = 0x7f040007;
+        public static int fontStyle = 0x7f040008;
+        public static int fontWeight = 0x7f040009;
+    }
+    public static final class bool {
+        public static int abc_action_bar_embed_tabs = 0x7f050001;
+    }
     public static final class color {
         public static int colorAccent = 0x7f060001;
         public static int colorPrimary = 0x7f060002;
         public static int colorPrimaryDark = 0x7f060003;
+        public static int notification_action_color_filter = 0x7f060004;
+        public static int notification_icon_bg_color = 0x7f060005;
+        public static int ripple_material_light = 0x7f060006;
+        public static int secondary_text_default_material_light = 0x7f060007;
     }
     public static final class dimen {
         public static int activity_horizontal_margin = 0x7f080001;
         public static int activity_vertical_margin = 0x7f080002;
+        public static int compat_button_inset_horizontal_material = 0x7f080003;
+        public static int compat_button_inset_vertical_material = 0x7f080004;
+        public static int compat_button_padding_horizontal_material = 0x7f080005;
+        public static int compat_button_padding_vertical_material = 0x7f080006;
+        public static int compat_control_corner_material = 0x7f080007;
+        public static int notification_action_icon_size = 0x7f080008;
+        public static int notification_action_text_size = 0x7f080009;
+        public static int notification_big_circle_margin = 0x7f08000a;
+        public static int notification_content_margin_start = 0x7f08000b;
+        public static int notification_large_icon_height = 0x7f08000c;
+        public static int notification_large_icon_width = 0x7f08000d;
+        public static int notification_main_column_padding_top = 0x7f08000e;
+        public static int notification_media_narrow_margin = 0x7f08000f;
+        public static int notification_right_icon_size = 0x7f080010;
+        public static int notification_right_side_padding_top = 0x7f080011;
+        public static int notification_small_icon_background_padding = 0x7f080012;
+        public static int notification_small_icon_size_as_large = 0x7f080013;
+        public static int notification_subtext_size = 0x7f080014;
+        public static int notification_top_pad = 0x7f080015;
+        public static int notification_top_pad_large_text = 0x7f080016;
     }
     public static final class drawable {
         public static int ic_launcher = 0x7f090001;
+        public static int notification_action_background = 0x7f090002;
+        public static int notification_bg = 0x7f090003;
+        public static int notification_bg_low = 0x7f090004;
+        public static int notification_bg_low_normal = 0x7f090005;
+        public static int notification_bg_low_pressed = 0x7f090006;
+        public static int notification_bg_normal = 0x7f090007;
+        public static int notification_bg_normal_pressed = 0x7f090008;
+        public static int notification_icon_background = 0x7f090009;
+        public static int notification_template_icon_bg = 0x7f09000a;
+        public static int notification_template_icon_low_bg = 0x7f09000b;
+        public static int notification_tile_bg = 0x7f09000c;
+        public static int notify_panel_notification_icon_bg = 0x7f09000d;
     }
     public static final class id {
-        public static int action_scan = 0x7f0c0001;
-        public static int btnCancel = 0x7f0c0002;
-        public static int btnPrint = 0x7f0c0003;
-        public static int btn_connect = 0x7f0c0004;
-        public static int btn_enable = 0x7f0c0005;
-        public static int currentDueTv = 0x7f0c0006;
-        public static int customerEmialTv = 0x7f0c0007;
-        public static int customerNameTv = 0x7f0c0008;
-        public static int customerPhoneTv = 0x7f0c0009;
-        public static int dataBinding = 0x7f0c000a;
-        public static int depositTv = 0x7f0c000b;
-        public static int discountTv = 0x7f0c000c;
-        public static int dueTv = 0x7f0c000d;
-        public static int editText = 0x7f0c000e;
-        public static int invoiceTv = 0x7f0c000f;
-        public static int layoutTemp = 0x7f0c0010;
-        public static int onAttachStateChangeListener = 0x7f0c0011;
-        public static int onDateChanged = 0x7f0c0012;
-        public static int payableTv = 0x7f0c0013;
-        public static int productPriceTv = 0x7f0c0014;
-        public static int productQuantityTv = 0x7f0c0015;
-        public static int productsName = 0x7f0c0016;
-        public static int sellerEmailTv = 0x7f0c0017;
-        public static int sellerNameTv = 0x7f0c0018;
-        public static int sellerPhoneTv = 0x7f0c0019;
-        public static int separator = 0x7f0c001a;
-        public static int sp_device = 0x7f0c001b;
-        public static int textWatcher = 0x7f0c001c;
-        public static int text_itemlist_spinner = 0x7f0c001d;
-        public static int totalAmountTv = 0x7f0c001e;
-        public static int totalBillTv = 0x7f0c001f;
+        public static int action_container = 0x7f0c0001;
+        public static int action_divider = 0x7f0c0002;
+        public static int action_image = 0x7f0c0003;
+        public static int action_scan = 0x7f0c0004;
+        public static int action_text = 0x7f0c0005;
+        public static int actions = 0x7f0c0006;
+        public static int async = 0x7f0c0007;
+        public static int blocking = 0x7f0c0008;
+        public static int btnCancel = 0x7f0c0009;
+        public static int btnPrint = 0x7f0c000a;
+        public static int btn_connect = 0x7f0c000b;
+        public static int btn_enable = 0x7f0c000c;
+        public static int chronometer = 0x7f0c000d;
+        public static int currentDueTv = 0x7f0c000e;
+        public static int customerEmialTv = 0x7f0c000f;
+        public static int customerNameTv = 0x7f0c0010;
+        public static int customerPhoneTv = 0x7f0c0011;
+        public static int dataBinding = 0x7f0c0012;
+        public static int depositTv = 0x7f0c0013;
+        public static int discountTv = 0x7f0c0014;
+        public static int dueTv = 0x7f0c0015;
+        public static int editText = 0x7f0c0016;
+        public static int forever = 0x7f0c0017;
+        public static int icon = 0x7f0c0018;
+        public static int icon_group = 0x7f0c0019;
+        public static int info = 0x7f0c001a;
+        public static int invoiceTv = 0x7f0c001b;
+        public static int italic = 0x7f0c001c;
+        public static int layoutTemp = 0x7f0c001d;
+        public static int line1 = 0x7f0c001e;
+        public static int line3 = 0x7f0c001f;
+        public static int normal = 0x7f0c0020;
+        public static int notification_background = 0x7f0c0021;
+        public static int notification_main_column = 0x7f0c0022;
+        public static int notification_main_column_container = 0x7f0c0023;
+        public static int onAttachStateChangeListener = 0x7f0c0024;
+        public static int onDateChanged = 0x7f0c0025;
+        public static int payableTv = 0x7f0c0026;
+        public static int productPriceTv = 0x7f0c0027;
+        public static int productQuantityTv = 0x7f0c0028;
+        public static int productsName = 0x7f0c0029;
+        public static int right_icon = 0x7f0c002a;
+        public static int right_side = 0x7f0c002b;
+        public static int sellerEmailTv = 0x7f0c002c;
+        public static int sellerNameTv = 0x7f0c002d;
+        public static int sellerPhoneTv = 0x7f0c002e;
+        public static int separator = 0x7f0c002f;
+        public static int sp_device = 0x7f0c0030;
+        public static int text = 0x7f0c0031;
+        public static int text2 = 0x7f0c0032;
+        public static int textWatcher = 0x7f0c0033;
+        public static int text_itemlist_spinner = 0x7f0c0034;
+        public static int time = 0x7f0c0035;
+        public static int title = 0x7f0c0036;
+        public static int totalAmountTv = 0x7f0c0037;
+        public static int totalBillTv = 0x7f0c0038;
+    }
+    public static final class integer {
+        public static int status_bar_notification_info_maxnum = 0x7f0d0001;
     }
     public static final class layout {
         public static int activity_main_printer = 0x7f0f0001;
         public static int dialog_input = 0x7f0f0002;
-        public static int simple_spinner_dropdown_item = 0x7f0f0003;
-        public static int simple_spinner_item = 0x7f0f0004;
+        public static int notification_action = 0x7f0f0003;
+        public static int notification_action_tombstone = 0x7f0f0004;
+        public static int notification_template_custom_big = 0x7f0f0005;
+        public static int notification_template_icon_group = 0x7f0f0006;
+        public static int notification_template_part_chronometer = 0x7f0f0007;
+        public static int notification_template_part_time = 0x7f0f0008;
+        public static int simple_spinner_dropdown_item = 0x7f0f0009;
+        public static int simple_spinner_item = 0x7f0f000a;
     }
     public static final class menu {
         public static int main = 0x7f100001;
@@ -65,25 +149,46 @@ public final class R {
         public static int action_settings = 0x7f150001;
         public static int app_name = 0x7f150002;
         public static int hello_world = 0x7f150003;
-        public static int text_bluetooth_off = 0x7f150004;
-        public static int text_bluetooth_on = 0x7f150005;
-        public static int text_connect = 0x7f150006;
-        public static int text_disable_bluetooth = 0x7f150007;
-        public static int text_disconnect = 0x7f150008;
-        public static int text_enable_bluetooth = 0x7f150009;
-        public static int text_list_devices = 0x7f15000a;
-        public static int text_list_paired_devices = 0x7f15000b;
-        public static int text_pair = 0x7f15000c;
-        public static int text_print_barcode = 0x7f15000d;
-        public static int text_print_demo = 0x7f15000e;
-        public static int text_print_image = 0x7f15000f;
-        public static int text_print_receipt = 0x7f150010;
-        public static int text_print_text = 0x7f150011;
-        public static int text_scan_devices = 0x7f150012;
-        public static int text_stop_scan = 0x7f150013;
+        public static int status_bar_notification_info_overflow = 0x7f150004;
+        public static int text_bluetooth_off = 0x7f150005;
+        public static int text_bluetooth_on = 0x7f150006;
+        public static int text_connect = 0x7f150007;
+        public static int text_disable_bluetooth = 0x7f150008;
+        public static int text_disconnect = 0x7f150009;
+        public static int text_enable_bluetooth = 0x7f15000a;
+        public static int text_list_devices = 0x7f15000b;
+        public static int text_list_paired_devices = 0x7f15000c;
+        public static int text_pair = 0x7f15000d;
+        public static int text_print_barcode = 0x7f15000e;
+        public static int text_print_demo = 0x7f15000f;
+        public static int text_print_image = 0x7f150010;
+        public static int text_print_receipt = 0x7f150011;
+        public static int text_print_text = 0x7f150012;
+        public static int text_scan_devices = 0x7f150013;
+        public static int text_stop_scan = 0x7f150014;
     }
     public static final class style {
         public static int AppBaseTheme = 0x7f160001;
         public static int AppTheme = 0x7f160002;
+        public static int TextAppearance_Compat_Notification = 0x7f160003;
+        public static int TextAppearance_Compat_Notification_Info = 0x7f160004;
+        public static int TextAppearance_Compat_Notification_Line2 = 0x7f160005;
+        public static int TextAppearance_Compat_Notification_Time = 0x7f160006;
+        public static int TextAppearance_Compat_Notification_Title = 0x7f160007;
+        public static int Widget_Compat_NotificationActionContainer = 0x7f160008;
+        public static int Widget_Compat_NotificationActionText = 0x7f160009;
+    }
+    public static final class styleable {
+        public static int[] FontFamily = { 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005, 0x7f040006, 0x7f040007 };
+        public static int FontFamily_fontProviderAuthority = 0;
+        public static int FontFamily_fontProviderCerts = 1;
+        public static int FontFamily_fontProviderFetchStrategy = 2;
+        public static int FontFamily_fontProviderFetchTimeout = 3;
+        public static int FontFamily_fontProviderPackage = 4;
+        public static int FontFamily_fontProviderQuery = 5;
+        public static int[] FontFamilyFont = { 0x7f040001, 0x7f040008, 0x7f040009 };
+        public static int FontFamilyFont_font = 0;
+        public static int FontFamilyFont_fontStyle = 1;
+        public static int FontFamilyFont_fontWeight = 2;
     }
 }

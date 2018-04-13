@@ -14,6 +14,7 @@ import net.a6te.lazycoder.andropos.database.User;
 import net.a6te.lazycoder.andropos.interfaces.RetrofitApiCaller;
 import net.a6te.lazycoder.andropos.modelClass.UserDatabaseModel;
 import net.a6te.lazycoder.andropos.modelClass.UserLogin;
+import net.a6te.lazycoder.andropos.test.SampleDataInsert;
 
 import java.net.NetworkInterface;
 import java.util.Collections;
@@ -35,6 +36,7 @@ public class UserAuthentication extends AppCompatActivity {
     private String userName;
     private String userPassword;
     private User user;
+    private SampleDataInsert sampleData;
 
 
     public static final String BASE_URL = "http://testpos.sahidul.org/";
@@ -43,6 +45,9 @@ public class UserAuthentication extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_authentication);
+
+        sampleData = new SampleDataInsert(this);
+
         user = new User(this);
         nameEt = (EditText) findViewById(R.id.userNameEt);
         passwordEt = (EditText) findViewById(R.id.userPasswordEt);
@@ -65,71 +70,81 @@ public class UserAuthentication extends AppCompatActivity {
     private void authentication() {
 
 
+
+        sampleData.storeSomeSampleData();//this method will store some sample data on database
+
         userName = nameEt.getText().toString();
         userPassword = passwordEt.getText().toString();
 
 
         if (user.haveAnySeller()){
-            if (user.getUserDetails().getUserName().equals(userName)
-                    && user.getUserDetails().getUserName().equals(userPassword)){
+            if (user.getUserDetails().getUserName().toLowerCase().equals(userName.toLowerCase())
+                    && user.getUserDetails().getUserPassword().toLowerCase().equals(userPassword.toLowerCase())){
+
                 startActivity(new Intent(UserAuthentication.this,MainActivity.class));
                 finish();
 
                 return;
+            }else{
+                showToast("Wrong user name or password");
+                return;
             }
         }
 
-        if (!new CheckInternetConnection().netCheck(this)){
-            Toast.makeText(UserAuthentication.this,"No Internet Connection",Toast.LENGTH_SHORT).show();
-            return;
-        }
+        /*
+        * After prepare and add your API
+        * comment out the bellow code
+        * */
 
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-        loginApi = retrofit.create(RetrofitApiCaller.class);
-        Call<UserLogin> apiResponse = loginApi.userLogin(userName,userPassword);
-
-
-
-        apiResponse.enqueue(new Callback<UserLogin>() {
-            @Override
-            public void onResponse(Call<UserLogin> call, Response<UserLogin> response) {
-                UserLogin userLogin = response.body();
-
-                Log.d(TAG, "onResponse: "+response.body());
-                Log.d(TAG, "onResponse: userLogin"+response.message());
-                try{
-
-                    if (userLogin.getEmployinfo().getUsername() != null){
-                        //store user details to userDatabase
-                        user.createNewUser(new UserDatabaseModel(userLogin.getEmployinfo().getUsername()
-                                ,userLogin.getEmployinfo().getEmail()
-                                ,userLogin.getEmployinfo().getPassword()
-                                ,userLogin.getEmployinfo().getPhoneNo()
-                                ,userLogin.getEmployinfo().getUserId()));
-
-                        finish();
-                        startActivity(new Intent(UserAuthentication.this,MainActivity.class));
-
-                    }else {
-                        Log.d(TAG, "onResponse: wrong user name or password");
-                        Toast.makeText(UserAuthentication.this,"Wrong userName or Password",Toast.LENGTH_SHORT).show();
-                    }
-                }catch (Exception e){
-                    showToast("Wrong user name or password or invalid device");
-                    Toast.makeText(UserAuthentication.this,"Wrong userName or Password",Toast.LENGTH_SHORT).show();
-                }
-            }
-            @Override
-            public void onFailure(Call<UserLogin> call, Throwable t) {
-                showToast("Please check your internet connection");
-                Log.d(TAG, "onFailure: userLogin"+t.getMessage());
-            }
-        });
-
-
+//        if (!new CheckInternetConnection().netCheck(this)){
+//            Toast.makeText(UserAuthentication.this,"No Internet Connection",Toast.LENGTH_SHORT).show();
+//            return;
+//        }
+//
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl(BASE_URL)
+//                .addConverterFactory(GsonConverterFactory.create())
+//                .build();
+//        loginApi = retrofit.create(RetrofitApiCaller.class);
+//        Call<UserLogin> apiResponse = loginApi.userLogin(userName,userPassword);
+//
+//
+//
+//        apiResponse.enqueue(new Callback<UserLogin>() {
+//            @Override
+//            public void onResponse(Call<UserLogin> call, Response<UserLogin> response) {
+//                UserLogin userLogin = response.body();
+//
+//                Log.d(TAG, "onResponse: "+response.body());
+//                Log.d(TAG, "onResponse: userLogin"+response.message());
+//                try{
+//
+//                    if (userLogin.getEmployinfo().getUsername() != null){
+//                        //store user details to userDatabase
+//                        user.createNewUser(new UserDatabaseModel(userLogin.getEmployinfo().getUsername()
+//                                ,userLogin.getEmployinfo().getEmail()
+//                                ,userLogin.getEmployinfo().getPassword()
+//                                ,userLogin.getEmployinfo().getPhoneNo()
+//                                ,userLogin.getEmployinfo().getUserId()));
+//
+//                        finish();
+//                        startActivity(new Intent(UserAuthentication.this,MainActivity.class));
+//
+//                    }else {
+//                        Log.d(TAG, "onResponse: wrong user name or password");
+//                        Toast.makeText(UserAuthentication.this,"Wrong userName or Password",Toast.LENGTH_SHORT).show();
+//                    }
+//                }catch (Exception e){
+//                    showToast("Wrong user name or password or invalid device");
+//                    Toast.makeText(UserAuthentication.this,"Wrong userName or Password",Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//            @Override
+//            public void onFailure(Call<UserLogin> call, Throwable t) {
+//                showToast("Please check your internet connection");
+//                Log.d(TAG, "onFailure: userLogin"+t.getMessage());
+//            }
+//        });
 
     }
 

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

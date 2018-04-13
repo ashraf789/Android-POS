@@ -37,10 +37,9 @@ public class SampleDataInsert {
         user = new User(context);
         sells = new SellsInfo(context);
 
-        storeSomeSampleData();
     }
 
-    private void storeSomeSampleData() {
+    public void storeSomeSampleData() {
 
 
         //insert data to stock page
@@ -121,7 +120,7 @@ public class SampleDataInsert {
 //            private String userPhone;
 //            private String userEmployeeId;
 //
-            user.createNewUser(new UserDatabaseModel("admin@gmail.com","admin@gmail.com","123456","01932237742","1"));
+            user.createNewUser(new UserDatabaseModel("admin","ashrafswe789@gmail.com","123456","01777777777","1"));
 
             //sell table
 //            private String sellsCode;

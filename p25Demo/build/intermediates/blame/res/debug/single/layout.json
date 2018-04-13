@@ -1,18 +1,42 @@
 [
     {
-        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
-        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\simple_spinner_item.xml"
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/simple_spinner_dropdown_item.xml",
+        "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/layout/simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_dropdown_item.xml",
-        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\simple_spinner_dropdown_item.xml"
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/dialog_input.xml",
+        "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/layout/dialog_input.xml"
     },
     {
-        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_printer.xml",
-        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\activity_main_printer.xml"
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout/notification_template_custom_big.xml"
     },
     {
-        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input.xml",
-        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\layout\\dialog_input.xml"
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/activity_main_printer.xml",
+        "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/layout/activity_main_printer.xml"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/layout/simple_spinner_item.xml",
+        "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/layout/simple_spinner_item.xml"
     }
 ]

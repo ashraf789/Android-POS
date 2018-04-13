@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "671255315993",
+    "firebase_url": "https://test-f203d.firebaseio.com",
+    "project_id": "test-f203d",
+    "storage_bucket": "test-f203d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671255315993:android:eceb73078faceef0",
+        "android_client_info": {
+          "package_name": "net.a6te.lazycoder.andropos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671255315993-2e5mm9ckn9h1qh38aa63nn2n8ah6lidu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmojg5Cils1h17TZf3esxttNJN2x6fNUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

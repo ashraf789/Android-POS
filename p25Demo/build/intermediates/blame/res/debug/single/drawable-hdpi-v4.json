@@ -1,6 +1,26 @@
 [
     {
-        "merged": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     }
 ]

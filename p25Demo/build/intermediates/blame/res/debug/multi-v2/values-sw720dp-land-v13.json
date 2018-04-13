@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/values-sw720dp-land/dimens.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
@@ -23,10 +23,10 @@
             ]
         },
         {
-            "outputFile": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "J:\\PresentWorkingProject\\AndroPOS\\p25Demo\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "source": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/res/values-sw720dp-land/dimens.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

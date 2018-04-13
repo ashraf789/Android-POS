@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-eu/values-eu.xml",
+            "map": [
+                {
+                    "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/release/values-eu/values-eu.xml",
+            "map": [
+                {
+                    "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

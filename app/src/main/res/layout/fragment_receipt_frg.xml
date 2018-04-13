@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -164,5 +167,5 @@
             android:id="@+id/receiptSaveReceiptBtn"/>
     </LinearLayout>
 
-
+    </ScrollView>
 </layout>

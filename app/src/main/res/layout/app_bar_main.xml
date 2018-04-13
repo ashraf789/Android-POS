@@ -8,9 +8,26 @@
     tools:context="net.a6te.lazycoder.andropos.MainActivity">
 
     <include layout="@layout/tool_bar"></include>
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/container">
-    </FrameLayout>
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_above="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container">
+        </FrameLayout>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/app_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+
 </LinearLayout>

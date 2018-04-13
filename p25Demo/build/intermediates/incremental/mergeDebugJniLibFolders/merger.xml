@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="J:\PresentWorkingProject\AndroPOS\p25Demo\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="J:\PresentWorkingProject\AndroPOS\p25Demo\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/src/debug/jniLibs"/></dataSet></merger>
