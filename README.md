@@ -11,4 +11,7 @@ Feature </br>
 -> Due List </br>
 -> Online Data Synchronise System </br></br>
 
-More details and screenshot about this project https://www.behance.net/gallery/54364123/AndroPos
+More details and screenshot about this project https://www.behance.net/gallery/54364123/AndroPos </br>
+Google play store link: https://play.google.com/store/apps/details?id=net.a6te.lazycoder.andropos
+
+
