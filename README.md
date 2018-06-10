@@ -15,3 +15,7 @@ More details and screenshot about this project https://www.behance.net/gallery/5
 Google play store link: https://play.google.com/store/apps/details?id=net.a6te.lazycoder.andropos
 
 
+</br>
+
+## License
+This project is licensed under the MIT License - see the [License File](LICENSE) for details
