@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.londatiga.android.bluebamboo" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="26" />
+7-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml
+8
+9    <uses-feature
+9-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:5-88
+10        android:name="android.hardware.bluetooth"
+10-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:19-60
+11        android:required="false" />
+11-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:61-85
+12
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:6:5-68
+13-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:6:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:7:5-74
+14-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:7:22-71
+15
+16</manifest>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/res/merged/debug/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "H:\\Programming\\Android-POS\\p25Demo\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "C:\\Users\\Ashraf-PC\\.gradle\\caches\\transforms-2\\files-2.1\\0af1d8cb8da2f9e607c7d1a3dd1f7b62\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/media/lazycoder/MyAllFiles/Programming/ClientProject/andropos/p25Demo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "H:\\Programming\\Android-POS\\p25Demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/home/lazycoder/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ea92f4da2c58770d6959bf337152320f/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "C:\\Users\\Ashraf-PC\\.gradle\\caches\\transforms-2\\files-2.1\\0af1d8cb8da2f9e607c7d1a3dd1f7b62\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

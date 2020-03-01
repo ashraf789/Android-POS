@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.londatiga.android.bluebamboo.test" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for net.londatiga.android.bluebamboo.test"
+        android:targetPackage="net.londatiga.android.bluebamboo.test" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.londatiga.android.bluebamboo.test" >
+4
+5    <uses-sdk
+5-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:5:42-71
+8
+9    <instrumentation
+9-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:11:5-15:87
+10        android:name="android.test.InstrumentationTestRunner"
+10-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:11:22-75
+11        android:functionalTest="false"
+11-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:14:22-52
+12        android:handleProfiling="false"
+12-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:13:22-53
+13        android:label="Tests for net.londatiga.android.bluebamboo.test"
+13-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:15:22-85
+14        android:targetPackage="net.londatiga.android.bluebamboo.test" />
+14-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:12:22-83
+15
+16    <uses-feature
+16-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:36
+17        android:name="android.hardware.bluetooth"
+17-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-50
+18        android:required="false" />
+18-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-33
+19
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-68
+20-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+21-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-74
+21-->[__tested_artifact__::p25Demo] H:\Programming\Android-POS\p25Demo\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-71
+22
+23    <application android:debuggable="true" >
+23-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:7:5-9:19
+23-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:7:18-43
+24        <uses-library android:name="android.test.runner" />
+24-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:8:9-60
+24-->H:\Programming\Android-POS\p25Demo\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger570216386032013372.xml:8:23-57
+25
+26        <meta-data
+26-->[com.android.support:support-core-utils:26.1.0] C:\Users\Ashraf-PC\.gradle\caches\transforms-2\files-2.1\6eeb9600386cca849911871e2d4f945b\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+27            android:name="android.support.VERSION"
+27-->[com.android.support:support-core-utils:26.1.0] C:\Users\Ashraf-PC\.gradle\caches\transforms-2\files-2.1\6eeb9600386cca849911871e2d4f945b\support-core-utils-26.1.0\AndroidManifest.xml:27:13-51
+28            android:value="26.1.0" />
+28-->[com.android.support:support-core-utils:26.1.0] C:\Users\Ashraf-PC\.gradle\caches\transforms-2\files-2.1\6eeb9600386cca849911871e2d4f945b\support-core-utils-26.1.0\AndroidManifest.xml:28:13-35
+29    </application>
+30
+31</manifest>
